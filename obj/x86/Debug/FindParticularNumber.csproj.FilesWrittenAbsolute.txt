@@ -1,0 +1,5 @@
+/main/code/FindParticularNumber/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/main/code/FindParticularNumber/bin/Debug/FindParticularNumber.exe.mdb
+/main/code/FindParticularNumber/bin/Debug/FindParticularNumber.exe
+/main/code/FindParticularNumber/obj/x86/Debug/FindParticularNumber.exe
+/main/code/FindParticularNumber/obj/x86/Debug/FindParticularNumber.exe.mdb
