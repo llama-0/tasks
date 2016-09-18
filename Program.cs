@@ -37,9 +37,6 @@ public static class Program {
 
     public static int BinarySearch(int[] a, int x, int s, int f) {
         int n = f - s;
-        for (int i = 0; i < n; i++) {
-            //Console.WriteLine(s + n/2);
-            //Console.WriteLine($"{a[s + n/2]}");
             if (x == a[s + n/2]) {
                 return a[s + n/2];
             } else if (x < a[s + n/2]) {
@@ -47,7 +44,6 @@ public static class Program {
             } else if (x > a[s + n/2]) {
                 return BinarySearch(a, x, s + n/2 + 1, f);
             }
-        }
         return 0;
     }
 
@@ -62,7 +58,7 @@ public static class Program {
     }
 
     public static void Main (string[] args) {
-        int x = 18;
+        int x = 91;
         int[] a = new int[] {2, 4, 20, 333, 586, 77000, 91, 18, 1};
         PrintArray(a);
         MergeSort(a);
